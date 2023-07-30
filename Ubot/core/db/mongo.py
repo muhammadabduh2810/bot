@@ -1,5 +1,5 @@
 
-"""
+
 import json
 import threading
 import dns.resolver
@@ -71,4 +71,3 @@ class MongoDatabase(Database):
 
 db = MongoDatabase(db_url, db_name)
 
-"""
